@@ -1,0 +1,26 @@
+header {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+}
+a {
+  text-decoration: none;
+}
+nav {
+  display: flex;
+  border-bottom: 1px solid black;
+}
+
+#link {
+  margin-bottom: 15px;
+  margin: 15px;
+}
+#introICT {
+  margin-right: 50px;
+}
+#introICT :hover {
+  background-color: skyblue;
+}
+#study {
+  margin-right: 50px;
+}
