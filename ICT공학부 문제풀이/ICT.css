@@ -10,17 +10,38 @@ nav {
   display: flex;
   border-bottom: 1px solid black;
 }
-
+li {
+  list-style: none;
+}
 #link {
   margin-bottom: 15px;
   margin: 15px;
 }
+#link :hover {
+  background-color: skyblue;
+}
 #introICT {
   margin-right: 50px;
 }
-#introICT :hover {
-  background-color: skyblue;
-}
 #study {
   margin-right: 50px;
+}
+
+table {
+  border-collapse: collapse;
+  text-align: center;
+  border: 1px solid black;
+}
+thead {
+  background-color: rgb(131, 133, 136);
+  border: 1px solid black;
+}
+tbody {
+  background-color: aqua;
+  font-size: 15px;
+}
+tr,
+td,
+th {
+  border: 1px solid black;
 }
